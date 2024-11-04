@@ -9,33 +9,76 @@ const experience: Experience = {
   year: 'año | años',
   list: [
     {
-      company: 'Apple Inc.',
-      position: 'Director Ejecutivo',
-      url: 'http://www.applebutwithmorebananas.com',
-      startDate: '2011-03',
+      company: 'SDWeb',
+      position: 'Desarrollador Web Full Stack',
+      url: '',
+      startDate: '2024-03',
       endDate: 'Presente',
       highlights: [
-        'Inventé la serie iFruit, que incluye el revolucionario Apple Banana: el primer smartphone que también puedes comer.',
-        'Negocié exitosamente tratados de paz con gigantes tecnológicos rivales usando el poder persuasivo del baile interpretativo.',
-        'Lancé el Macbook Airless: el primer portátil que realmente flota en el aire.'
-      ],
-      description:
-        'Desde que tomé el timón en Apple Inc., he dirigido a la compañía a través de olas de innovación mientras usaba una capa de superhéroe en todas las reuniones ejecutivas. Mi estilo de liderazgo se centra en desatar la creatividad, fomentar un ambiente donde se anima a los ingenieros de software a usar pijamas para aumentar la productividad, y reemplazar todas las sillas de oficina con bolsas de frijoles por razones ergonómicas.'
+        'Desarrollé funcionalidades en Symfony para una aplicación de gestión de universidades y centros educativos.',
+        'Creé servicios web para enviar datos académicos a la intranet del centro (Drupal) y Moodle.',
+        'Implementé módulos para la gestión de datos económicos y la generación de exportadores de Excel.',
+        'Realicé mejoras significativas en el rendimiento del sistema y optimización de procesos.'
+    ],
+    description: 'Desarrollé en Symfony funcionalidades para una aplicación de gestión de universidades y centros educativos, integrando servicios web con plataformas como Drupal y Moodle, y mejorando el rendimiento general del sistema.'    
     },
     {
-      company: 'Google LLC',
-      position: 'Jefe Global de Huevos de Pascua',
-      url: 'http://www.googolplexthegame.com',
-      startDate: '2015-04',
-      endDate: 'Presente',
+      company: 'TBI Consulting Group',
+      position: 'Desarrollador Web Full Stack',
+      url: '',
+      startDate: '2023-09',
+      endDate: '2024-03',
       highlights: [
-        'Creé el primer huevo de Pascua impulsado por IA del mundo que solo aparece cuando los usuarios adivinan correctamente el número de caramelos de goma en un frasco virtual',
-        'Organicé un torneo internacional de escondite usando Google Earth, lo cual incrementó la participación de los usuarios en un 5000%.'
-      ],
-      description:
-        'Como Jefe Global de Huevos de Pascua en Google LLC, he liderado la infusión de diversión y sorpresas en nuestros productos. Mi trabajo asegura que cada búsqueda y clic revele una posible sonrisa, mejorando la interacción del usuario y profundizando la lealtad a la marca. También he sido pivotal en el desarrollo de la característica "Búsqueda de Snacks", donde la IA de Google sugiere snacks basados en el historial de navegación de los usuarios, mejorando significativamente la productividad de la tarde.'
+        'Desarrollé una aplicación de gestión de viajes para el Camino de Santiago, mejorando la planificación y seguimiento de rutas.',
+        'Migré la aplicación original de PHP nativo a Laravel, modernizando la arquitectura y mejorando la escalabilidad.',
+        'Implementé funcionalidades avanzadas como gestión de reservas, seguimiento de etapas, y generación de informes de viaje.',
+        'Optimicé la experiencia del usuario y la eficiencia del sistema mediante una interfaz más intuitiva y un rendimiento mejorado.'
+    ],
+    description: 'Estuve desarrollando una aplicación de gestión de viajes para el Camino de Santiago, modernizando la aplicación original al migrarla de PHP nativo a Laravel, con un enfoque en mejorar la funcionalidad, escalabilidad y experiencia del usuario.'
+    
+    },
+    {
+      company: 'Alia Technologies',
+      position: 'Desarrollador Web Full Stack',
+      url: '',
+      startDate: '2023-03',
+      endDate: '2023-06',
+      highlights: [
+        'Contribuí a la finalización de una aplicación de gestión para una empresa de limpieza utilizando Laravel y Vue.',
+        'Aseguré un alto rendimiento y capacidad de respuesta en la aplicación.',
+        'Colaboré en la implementación de funcionalidades clave para la gestión operativa y administrativa.'
+    ],
+    description: 'Estuve ayudando a finalizar un proyecto de una aplicación de gestión para una empresa de limpieza, enfocándome en asegurar la calidad, eficiencia y rendimiento del sistema.'    
+    },
+    {
+      company: 'Irix Galicia',
+      position: 'Desarrollador Web',
+      url: '',
+      startDate: '2022-07',
+      endDate: '2022-11',
+      highlights: [
+        'Implementé nuevas funcionalidades y optimicé las existentes.',
+        'Trabajé en diversos proyectos utilizando tecnologías web modernas.',
+        'Desarrollé una aplicación de gestión para una empresa maderera.'
+    ],
+    description: 'Estuve desarrollando una aplicación de gestión para una empresa maderera y manteniendo páginas web para clientes, enfocándome en mejorar la experiencia del usuario y el rendimiento.'
+    
+    },
+    {
+      company: 'Grupo Firmatel',
+      position: 'Programador Web',
+      url: '',
+      startDate: '2021-02',
+      endDate: '2022-06',
+      highlights: [
+        'Desarrollé y mantuve una aplicación de gestión de recursos humanos con Laravel y Vue.',
+        'Implementé funcionalidades clave como la gestión de empleados, control de asistencia, y generación de informes.',
+        'Colaboré con equipos multidisciplinarios para optimizar procesos internos y mejorar la eficiencia administrativa.'
+    ],
+      description: 'Trabajé como desarrollador web utilizando Laravel y Vue, desarrollando una aplicación de gestión de recursos humanos. Implementé funcionalidades clave como la gestión de empleados, control de asistencia, generación de informes, y seguimiento de evaluaciones de desempeño, optimizando procesos internos y mejorando la eficiencia administrativa.'
     }
   ]
+
 }
 
 export default experience
