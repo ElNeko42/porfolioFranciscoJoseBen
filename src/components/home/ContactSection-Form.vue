@@ -3,10 +3,9 @@ import { ref } from 'vue';
 import emailjs from 'emailjs-com';
 import GlassButton from '@/components/GlassButton.vue';
 
-// Carga de las claves desde el archivo .env
-const SERVICE_ID = process.env.VUE_APP_SERVICE_ID!;
-const TEMPLATE_ID = process.env.VUE_APP_TEMPLATE_ID!;
-const USER_ID = process.env.VUE_APP_USER_ID!;
+const SERVICE_ID = 'service_fn837fw';
+const TEMPLATE_ID = 'template_oavlybe';
+const USER_ID = 'SHWu4JHL-KcOAy5em';
 
 const name = ref('');
 const email = ref('');
@@ -63,7 +62,6 @@ const submitForm = () => {
     });
 };
 </script>
-
 
 <template>
   <form

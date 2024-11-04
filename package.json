@@ -15,6 +15,8 @@
   "dependencies": {
     "@fontsource-variable/open-sans": "^5.0.28",
     "@fontsource/source-sans-pro": "^5.0.8",
+    "dotenv": "^16.4.5",
+    "emailjs-com": "^3.2.0",
     "vue": "^3.4.21",
     "vue-i18n": "9",
     "vue-router": "^4.3.0"
