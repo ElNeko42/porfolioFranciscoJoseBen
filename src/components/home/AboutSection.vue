@@ -39,7 +39,7 @@
           </p>
         </div>
         <EducationPanel />
-        <AchievementsPanel />
+        <!-- <AchievementsPanel /> -->
       </div>
     </article>
   </section>
