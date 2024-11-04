@@ -1,69 +1,70 @@
 <script setup lang="ts">
-import { onMounted, ref } from 'vue'
-import GlassButton from '@/components/GlassButton.vue'
-// Get your key for free in: https://web3forms.com/
-const WEB3FORMS_ACCESS_KEY = 'YOUR_ACCESS_KEY'
-const name = ref('')
-const email = ref('')
-const message = ref('')
-const sending = ref(false)
-const isMessageAvailable = ref(true)
-const cooldownTimeLeft = ref('00:00')
+import { ref } from 'vue';
+import emailjs from 'emailjs-com';
+import GlassButton from '@/components/GlassButton.vue';
 
-onMounted(() => {
-  checkMessageAvailable()
-})
+// Carga de las claves desde el archivo .env
+const SERVICE_ID = process.env.VUE_APP_SERVICE_ID!;
+const TEMPLATE_ID = process.env.VUE_APP_TEMPLATE_ID!;
+const USER_ID = process.env.VUE_APP_USER_ID!;
+
+const name = ref('');
+const email = ref('');
+const message = ref('');
+const sending = ref(false);
+const isMessageAvailable = ref(true);
+const cooldownTimeLeft = ref('00:00');
 
 const checkMessageAvailable = () => {
-  let lastMessage = localStorage.getItem('lastMessage')
+  const lastMessage = localStorage.getItem('lastMessage');
   if (lastMessage) {
-    let lastMessageTime = new Date(lastMessage)
-    let currentTime = new Date()
-    let difference = currentTime.getTime() - lastMessageTime.getTime()
-    let differenceInMinutes = difference / 60000
+    const lastMessageTime = new Date(lastMessage);
+    const currentTime = new Date();
+    const difference = currentTime.getTime() - lastMessageTime.getTime();
+    const differenceInMinutes = difference / 60000;
     if (differenceInMinutes < 30) {
-      let minutes = 30 - Math.floor(differenceInMinutes)
-      let seconds = 59 - Math.floor((difference % (1000 * 60)) / 1000)
-      cooldownTimeLeft.value = `${minutes}:${seconds.toString().padStart(2, '0')}`
-      setTimeout(() => {
-        checkMessageAvailable()
-      }, 1000)
-      isMessageAvailable.value = false
-      return false
+      const minutes = 30 - Math.floor(differenceInMinutes);
+      const seconds = 59 - Math.floor((difference % (1000 * 60)) / 1000);
+      cooldownTimeLeft.value = `${minutes}:${seconds.toString().padStart(2, '0')}`;
+      setTimeout(checkMessageAvailable, 1000);
+      isMessageAvailable.value = false;
+      return false;
     }
   }
-  isMessageAvailable.value = true
-  return true
-}
+  isMessageAvailable.value = true;
+  return true;
+};
 
-const submitForm = async () => {
+const submitForm = () => {
   if (!checkMessageAvailable()) {
-    console.error("You can't send more messages")
-    return
+    console.error("You can't send more messages yet.");
+    return;
   }
-  sending.value = true
-  const response = await fetch('https://api.web3forms.com/submit', {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-      Accept: 'application/json'
-    },
-    body: JSON.stringify({
-      access_key: WEB3FORMS_ACCESS_KEY,
-      name: name.value,
-      email: email.value,
-      message: message.value
+
+  sending.value = true;
+
+  const templateParams = {
+    from_name: name.value,
+    from_email: email.value,
+    message: message.value,
+  };
+
+  emailjs.send(SERVICE_ID, TEMPLATE_ID, templateParams, USER_ID)
+    .then(response => {
+      console.log('Email sent successfully!', response.status, response.text);
+      const currentDateTime = new Date(Date.now()).toISOString();
+      localStorage.setItem('lastMessage', currentDateTime);
+      checkMessageAvailable();
+      sending.value = false;
     })
-  })
-  const result = await response.json()
-  if (result.success) {
-    console.log(result)
-  }
-  let currentDateTime = new Date(Date.now()).toISOString()
-  localStorage.setItem('lastMessage', currentDateTime)
-  checkMessageAvailable()
-}
+    .catch(error => {
+      console.error('Failed to send email.', error);
+      sending.value = false;
+    });
+};
 </script>
+
+
 <template>
   <form
     @submit.prevent="submitForm"
@@ -77,7 +78,7 @@ const submitForm = async () => {
         v-model="name"
         autocomplete="name"
         :placeholder="$t('contact.name_placeholder')"
-        class="block min-h-[45px] w-full select-all rounded-md rounded-s-md border-[1px] border-neutral-400 bg-white px-3 outline-0 focus:outline-1 focus:outline-primary-700"
+        class="block min-h-[45px] w-full select-all rounded-md border-[1px] border-neutral-400 bg-white px-3 outline-0 focus:outline-1 focus:outline-primary-700"
         required
       />
     </label>
@@ -89,7 +90,7 @@ const submitForm = async () => {
         v-model="email"
         autocomplete="email"
         :placeholder="$t('contact.email_placeholder')"
-        class="block min-h-[45px] w-full select-all rounded-md rounded-s-md border-[1px] border-neutral-400 bg-white px-3 outline-0 focus:outline-1 focus:outline-primary-700"
+        class="block min-h-[45px] w-full select-all rounded-md border-[1px] border-neutral-400 bg-white px-3 outline-0 focus:outline-1 focus:outline-primary-700"
         required
       />
     </label>
@@ -98,7 +99,7 @@ const submitForm = async () => {
       <textarea
         name="message"
         v-model="message"
-        class="block min-h-[45px] w-full select-all rounded-md rounded-s-md border-[1px] border-neutral-400 bg-white px-3 py-2 outline-0 focus:outline-1 focus:outline-primary-700"
+        class="block min-h-[45px] w-full select-all rounded-md border-[1px] border-neutral-400 bg-white px-3 py-2 outline-0 focus:outline-1 focus:outline-primary-700"
         :placeholder="$t('contact.message_placeholder')"
         required
       ></textarea>
