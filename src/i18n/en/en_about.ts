@@ -51,43 +51,43 @@ const about: About = {
       },
     ]  
   },
-  // achievements: {
-  //   title: 'Achievements',
-  //   list: [
-  //     {
-  //       title: "World's Best Armchair Astronaut",
-  //       date: '2023-04',
-  //       url: 'https://website/news/worlds-best-armchair-astronaut',
-  //       awarder: 'Galactic Couch Potato Association',
-  //       summary:
-  //         "Awarded for outstanding achievements in the field of amateur space exploration from the comfort of one's living room. Recognized for over 500 hours of logged telescope time pointed at the TV screen, simulating a journey across the cosmos while never actually leaving the sofa."
-  //     },
-  //     {
-  //       title: 'Supreme Overlord of Spreadsheet Sorcery',
-  //       date: '2022-11',
-  //       url: 'https://website/news/spreadsheet-sorcery',
-  //       awarder: 'International League of Data Wizards',
-  //       summary:
-  //         'Honored for transforming ordinary spreadsheets into dazzling arrays of formulas and charts that not only compute complex datasets but also tell compelling stories, perform light shows, and occasionally predict the weather.'
-  //     },
-  //     {
-  //       title: 'Grand Champion of Procrastination',
-  //       date: '2024-01',
-  //       url: 'https://website/news/procrastination-champ',
-  //       awarder: 'Global Guild of Time Wasters',
-  //       summary:
-  //         'Awarded for successfully putting off a 10-minute task for over 6 months, a remarkable demonstration of procrastination skills, turning the act of delaying into an art form, and finally completing the task during a commercial break.'
-  //     },
-  //     {
-  //       title: 'Lifetime Achievement in Snack Innovation',
-  //       date: '2023-03',
-  //       url: 'https://website/news/snack-innovation',
-  //       awarder: 'Snack Lovers Federation',
-  //       summary:
-  //         'Recognized for a lifelong dedication to creating the perfect snack combinations that balance salty, sweet, crunchy, and gooey in one bite. Famous for inventing the chocolate-covered pretzel marshmallow nacho.'
-  //     }
-  //   ]
-  // }
+  achievements: {
+    title: 'Achievements',
+    list: [
+      {
+        title: "World's Best Armchair Astronaut",
+        date: '2023-04',
+        url: 'https://website/news/worlds-best-armchair-astronaut',
+        awarder: 'Galactic Couch Potato Association',
+        summary:
+          "Awarded for outstanding achievements in the field of amateur space exploration from the comfort of one's living room. Recognized for over 500 hours of logged telescope time pointed at the TV screen, simulating a journey across the cosmos while never actually leaving the sofa."
+      },
+      {
+        title: 'Supreme Overlord of Spreadsheet Sorcery',
+        date: '2022-11',
+        url: 'https://website/news/spreadsheet-sorcery',
+        awarder: 'International League of Data Wizards',
+        summary:
+          'Honored for transforming ordinary spreadsheets into dazzling arrays of formulas and charts that not only compute complex datasets but also tell compelling stories, perform light shows, and occasionally predict the weather.'
+      },
+      {
+        title: 'Grand Champion of Procrastination',
+        date: '2024-01',
+        url: 'https://website/news/procrastination-champ',
+        awarder: 'Global Guild of Time Wasters',
+        summary:
+          'Awarded for successfully putting off a 10-minute task for over 6 months, a remarkable demonstration of procrastination skills, turning the act of delaying into an art form, and finally completing the task during a commercial break.'
+      },
+      {
+        title: 'Lifetime Achievement in Snack Innovation',
+        date: '2023-03',
+        url: 'https://website/news/snack-innovation',
+        awarder: 'Snack Lovers Federation',
+        summary:
+          'Recognized for a lifelong dedication to creating the perfect snack combinations that balance salty, sweet, crunchy, and gooey in one bite. Famous for inventing the chocolate-covered pretzel marshmallow nacho.'
+      }
+    ]
+  }
 }
 
 export default about

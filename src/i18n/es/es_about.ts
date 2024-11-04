@@ -51,43 +51,43 @@ const about: About = {
       },
     ]
   },
-  // achievements: {
-  //   title: 'Logros',
-  //   list: [
-  //     {
-  //       title: 'Mejor Astronauta de Sillón del Mundo',
-  //       date: '2023-04',
-  //       url: 'https://website/news/worlds-best-armchair-astronaut',
-  //       awarder: 'Asociación Galáctica de Papas de Sofá',
-  //       summary:
-  //         'Otorgado por logros sobresalientes en el campo de la exploración espacial amateur desde la comodidad de la sala de estar. Reconocido por más de 500 horas de tiempo de telescopio apuntado a la pantalla del televisor, simulando un viaje por el cosmos sin salir del sofá.'
-  //     },
-  //     {
-  //       title: 'Supremo Señor de la Hechicería de Hojas de Cálculo',
-  //       date: '2022-11',
-  //       url: 'https://website/news/spreadsheet-sorcery',
-  //       awarder: 'Liga Internacional de Magos de Datos',
-  //       summary:
-  //         'Honrado por transformar hojas de cálculo ordinarias en deslumbrantes arreglos de fórmulas y gráficos que no solo calculan conjuntos de datos complejos, sino que también cuentan historias convincentes, realizan espectáculos de luces y ocasionalmente predicen el clima.'
-  //     },
-  //     {
-  //       title: 'Gran Campeón de la Procrastinación',
-  //       date: '2024-01',
-  //       url: 'https://website/news/procrastination-champ',
-  //       awarder: 'Gremio Global de Perdedores de Tiempo',
-  //       summary:
-  //         'Premiado por posponer exitosamente una tarea de 10 minutos durante más de 6 meses, una demostración notable de habilidades de procrastinación, convirtiendo el acto de retrasar en una forma de arte, y finalmente completando la tarea durante un corte comercial.'
-  //     },
-  //     {
-  //       title: 'Logro de por Vida en Innovación de Aperitivos',
-  //       date: '2023-03',
-  //       url: 'https://website/news/snack-innovation',
-  //       awarder: 'Federación de Amantes de los Aperitivos',
-  //       summary:
-  //         'Reconocido por una dedicación de por vida a crear las combinaciones perfectas de aperitivos que equilibran lo salado, dulce, crujiente y pegajoso en un solo bocado. Famoso por inventar el nacho de malvavisco con pretzel cubierto de chocolate.'
-  //     }
-  //   ]
-  // }
+  achievements: {
+    title: 'Logros',
+    list: [
+      {
+        title: 'Mejor Astronauta de Sillón del Mundo',
+        date: '2023-04',
+        url: 'https://website/news/worlds-best-armchair-astronaut',
+        awarder: 'Asociación Galáctica de Papas de Sofá',
+        summary:
+          'Otorgado por logros sobresalientes en el campo de la exploración espacial amateur desde la comodidad de la sala de estar. Reconocido por más de 500 horas de tiempo de telescopio apuntado a la pantalla del televisor, simulando un viaje por el cosmos sin salir del sofá.'
+      },
+      {
+        title: 'Supremo Señor de la Hechicería de Hojas de Cálculo',
+        date: '2022-11',
+        url: 'https://website/news/spreadsheet-sorcery',
+        awarder: 'Liga Internacional de Magos de Datos',
+        summary:
+          'Honrado por transformar hojas de cálculo ordinarias en deslumbrantes arreglos de fórmulas y gráficos que no solo calculan conjuntos de datos complejos, sino que también cuentan historias convincentes, realizan espectáculos de luces y ocasionalmente predicen el clima.'
+      },
+      {
+        title: 'Gran Campeón de la Procrastinación',
+        date: '2024-01',
+        url: 'https://website/news/procrastination-champ',
+        awarder: 'Gremio Global de Perdedores de Tiempo',
+        summary:
+          'Premiado por posponer exitosamente una tarea de 10 minutos durante más de 6 meses, una demostración notable de habilidades de procrastinación, convirtiendo el acto de retrasar en una forma de arte, y finalmente completando la tarea durante un corte comercial.'
+      },
+      {
+        title: 'Logro de por Vida en Innovación de Aperitivos',
+        date: '2023-03',
+        url: 'https://website/news/snack-innovation',
+        awarder: 'Federación de Amantes de los Aperitivos',
+        summary:
+          'Reconocido por una dedicación de por vida a crear las combinaciones perfectas de aperitivos que equilibran lo salado, dulce, crujiente y pegajoso en un solo bocado. Famoso por inventar el nacho de malvavisco con pretzel cubierto de chocolate.'
+      }
+    ]
+  }
 }
 
 export default about
