@@ -6,68 +6,69 @@ const projects: Projects = {
   website: 'Website',
   main: [
     {
-      name: 'Vuefolio',
-      techstack: ['Vuejs', 'i18n', 'TypeScript', 'Tailwind CSS'],
-      image: 'vuefolio_cover.webp',
+      name: 'Customer Service Chatbots',
+      techstack: ['Laravel', 'Vue', 'AI', 'Tailwind CSS', 'MySQL'],
+      image: 'chatbot.png',
       description:
-        'A portfolio template built with Vue.js, i18n, and TypeScript. It is highly customizable, easy to set up, and thoroughly optimized for performance, SEO, and accessibility.',
-      src: 'https://github.com/ralodev/vuefolio',
-      url: 'https://vuefolio.netlify.app/'
+        'I developed an intelligent chatbot using Laravel and Vue.js, designed to efficiently interact in various environments. This chatbot can perform multiple roles, such as answering frequently asked questions, providing information about products and services, and offering real-time customer support. Additionally, the chatbot is equipped with an AI system that allows it to learn and improve its performance over time, providing a personalized and effective user experience.',
+      src: 'https://github.com/ElNeko42/ChatBot',
+      url: 'https://github.com/ElNeko42/ChatBot'
     },
     {
-      name: 'AlienSignalDetector',
-      techstack: ['Morse', 'Windows 95', 'WebAssembly', 'Firebase'],
-      image: 'project_cover.webp',
+      name: 'Magic Score',
+      techstack: ['Ionic', 'Angular', 'Capacitor', 'TypeScript'],
+      image: '3.png',
       description:
-        'Revolutionary app that uses the latest in web technologies to scan cosmic microwave background radiation for alien signals. Perfect for amateur astronomers and sci-fi enthusiasts who want to be the first to tweet about extraterrestrial contact.',
-      src: 'https://github.com/johndoe/aliensignaldetector',
-      url: 'https://detect-alien-signals-now.com/'
+        'I developed a comprehensive app for Magic: The Gathering enthusiasts using Ionic and Angular, available for both Android and iOS. This app facilitates game tracking through intuitive counters and an easy-to-use scoreboard, enhancing the gaming experience. Leveraging Ionic’s cross-platform capabilities, the app offers a seamless and user-friendly interface across different operating systems, making it an essential tool for any Magic fan.',
+      src: 'https://github.com/ElNeko42/magic-score',
+      url: 'https://github.com/ElNeko42/magic-score'
     },
     {
-      name: 'QuantumCoffeeBrewer',
-      techstack: ['Quantum Computing', 'Q#', 'Azure', 'Amazon S3'],
-      image: 'project_cover.webp',
+      name: 'E-Shop Electronics',
+      techstack: ['Prestashop', 'PHP', 'MySQL', 'JavaScript'],
+      image: 'eshop.png',
       description:
-        'Harness the power of quantum computing to brew the perfect cup of coffee. This app calculates the optimal temperature and brewing time based on quantum mechanics, promising the most entangled and superpositioned caffeine molecules.',
-      src: 'https://github.com/johndoe/quantumcoffeebrewer',
-      url: 'https://quantumcoffeebrewer.com/'
+        'This is an online store developed with PrestaShop, specifically designed for an electronics shop. The goal is to provide an efficient and attractive platform for selling electronic products, offering a smooth shopping experience for both customers and store administrators.',
+      src: '',
+      url: ''
     }
   ],
   // You can leave this array empty
   other: [
     {
-      name: 'MemeGeneratorX',
-      techstack: ['Binary', 'Notepad ++', 'MS Paint'],
+      name: 'Virtual Museum',
+      techstack: ['Unity', 'C#', 'Blender', 'Photoshop'],
       description:
-        "An advanced, AI-powered tool that generates custom memes based on your mood. Just tell it how you're feeling, and it'll do the rest. Perfect for those who need to express themselves but can't quite find the words.",
-      url: 'https://github.com/johndoes/MemeGeneratorX',
-      src: 'https://github.com/johndoes/MemeGeneratorX'
+        'The Virtual Museum is an application developed in Unity that allows users to explore a digital museum dedicated to video games. In this interactive environment, visitors can browse different rooms showcasing objects, art, and historical elements related to the world of video games.',
+      url: 'https://github.com/ElNeko42/museo',
+      src: 'https://github.com/ElNeko42/museo'
     },
     {
-      name: 'VirtualBakeOff',
-      techstack: ['Blackberry notes app', 'MSDOS'],
+      name: 'Text Translator Asset for Unity',
+      techstack: ['Unity', 'C#'],
       description:
-        'This is a long description in a really small card: Immerse yourself in the whimsical realm of a virtual reality application that bestows upon you the extraordinary ability to partake in exhilarating baking competitions, all from the cozy confines of your very own kitchen! Harnessing the boundless potential of cutting-edge VR technology, you shall embark upon a culinary odyssey, concocting an array of delectable digital cakes and pastries that shall tantalize the taste buds of both mortals and deities alike \n\nBut lo and behold, for the pièce de résistance of this fantastical escapade lies in the impeccable judgement of an artificial intelligence, honed to perfection through the meticulous observation of not only every baking show to ever grace the terrestrial plane, but also drawing inspiration from the illustrious annals of animated entertainment such as the revered epics of Futurama and the irreverent hilarity of The Simpsons. Oh, the tales it could regale you with, but alas, thats a narrative for another time, nestled within the annals of culinary legendry and technological marvel!',
-      url: 'https://github.com/johndoes/VirtualBakeOff',
-      src: 'https://github.com/johndoes/VirtualBakeOff'
+        'This Unity asset is a tool developed in C# that enables text translation within a Unity project. It is designed to facilitate the localization of games or applications, allowing developers to manage multiple languages efficiently.',
+      url: 'https://github.com/ElNeko42/traductor',
+      src: 'https://github.com/ElNeko42/traductor'
     },
     {
-      name: 'SleepyTimeScheduler',
+      name: 'Trivia React App',
       techstack: ['Ruby', 'Iconify', 'Rust'],
       description:
-        'A dynamic, algorithm-driven scheduler that decides when you should sleep based on your social media activity. Because why should you decide when to sleep when an app can do it for you?',
-      url: 'https://github.com/johndoes/SleepyTimeScheduler',
-      src: 'https://github.com/johndoes/SleepyTimeScheduler'
+        'The "Trivia React App" is a fun web application developed for trivia game enthusiasts. With a modern design and user-friendly interface, users can enjoy a unique experience, testing their knowledge across various categories and difficulty levels.',
+      url: 'https://github.com/ElNeko42/Trivial-juego-sencillo',
+      src: 'https://github.com/ElNeko42/Trivial-juego-sencillo'
     },
     {
-      name: 'PlantWhisperer',
-      techstack: ['Kotlin', 'Spark AR', 'Blogger', 'Blender'],
+      name: 'Animal Shelter Management App',
+      techstack: ['Laravel', 'Vue', 'MySQL', 'Tailwind CSS'],
       description:
-        "An app for plant lovers that translates your plants' needs into plain English. Ever wondered if your fern is thirsty or your cactus is lonely? Let PlantWhisperer tell you what they're really thinking!",
+        'This is an open-source application developed with Laravel on the backend and Vue on the frontend, designed to help animal shelters efficiently manage their operations. The project was created as a personal initiative to support shelters in their mission to care for and find homes for animals.',
       url: 'https://github.com/johndoes/PlantWhisperer',
       src: 'https://github.com/johndoes/PlantWhisperer'
     }
   ]
+
 }
 
 export default projects
