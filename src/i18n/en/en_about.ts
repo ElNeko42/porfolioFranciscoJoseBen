@@ -8,30 +8,48 @@ const about: About = {
     title: 'Education',
     list: [
       {
-        title: 'Bachelor of Science in Time Traveling',
-        institution: 'University of Parallel Universes',
-        url: 'http://www.universityofparalleluniverses.com/',
+        title: 'Bootcamp in Data Analysis and Artificial Intelligence',
+        institution: 'Hack A Boss',
+        url: '',
         description:
-          'An intensive course that combines quantum physics, nostalgia studies, and the history of science fiction to prepare students for a career in time traveling. Specialized modules on avoiding time paradoxes and blending in at medieval banquets.',
-        startDate: '2018-08',
-        endDate: '2023-07',
+          'Intensive program focused on data analysis and the development of artificial intelligence solutions, preparing students to tackle advanced technological challenges.',
+        startDate: '2024-01',
+        endDate: '2024-06',
         courses: [
-          'Quantum Mechanics 101',
-          'Advanced Techniques in Chrono-Zoom',
-          'Paradox Management'
+          'Data Analysis',
+          'Artificial Intelligence Models',
+          'Machine Learning Solutions'
         ]
       },
       {
-        title: 'Bootcamp of Arts in Pirate Studies',
-        institution: 'Caribbean School of Buccaneering',
-        url: 'http://www.caribbeanschoolofbuccaneering.com/',
+        title: 'Advanced Technician in Multiplatform Application Development (DAM)',
+        institution: 'Colexio Karbo',
+        url: '',
         description:
-          'A rigorous program that delves into the golden age of piracy. Students learn not only the history and economics of piracy but also engage in practical ship-sailing and treasure-mapping workshops. Ideal for those seeking a career in maritime reenactment or treasure hunting.',
-        startDate: '2018-08',
-        endDate: '2023-07',
-        courses: ['Pirate Ethics', 'Navigation of the 17th Century', 'Economics of Plunder']
-      }
-    ]
+          'Technical program focused on the development of mobile and desktop applications, utilizing modern frameworks and agile methodologies.',
+        startDate: '2017-09',
+        endDate: '2019-06',
+        courses: [
+          'Mobile Application Development',
+          'Database and Information Management',
+          'Computer Systems Programming'
+        ]
+      },
+      {
+        title: 'Intermediate Technician in Digital Prepress',
+        institution: 'IES Calvo Sotelo',
+        url: '',
+        description:
+          'Technical course centered on the preparation and production of digital graphic materials, with knowledge in graphic design and specialized software handling.',
+        startDate: '2015-09',
+        endDate: '2017-06',
+        courses: [
+          'Prepress Techniques',
+          'Digital Graphic Design',
+          'Graphic Material Production'
+        ]
+      },
+    ]  
   },
   // achievements: {
   //   title: 'Achievements',
