@@ -44,8 +44,9 @@ const submitForm = () => {
 
   const templateParams = {
     from_name: name.value,
-    from_email: email.value,
-    message: message.value,
+    from_email: email.value, // Email del usuario
+    message: `Email: ${email.value}\n\nMessage:\n${message.value}`, // Incluir email en el mensaje
+    'reply_to': email.value  // Set the reply-to header
   };
 
   emailjs.send(SERVICE_ID, TEMPLATE_ID, templateParams, USER_ID)
