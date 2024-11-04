@@ -3,7 +3,7 @@ import type { About } from '@/types'
 const about: About = {
   title: 'Acerca de',
   summary:
-    'De día, soy un ingeniero de software con un talento especial para convertir problemas complejos en soluciones simples. De noche, soy un aficionado a los memes finos y un aspirante a astronauta. Con un gusto por los juegos de palabras y un profundo amor por todo lo relacionado con la tecnología, he logrado convencer a mis plantas de que tuiteen cuando necesitan agua. \n\n Un experimentado malabarista de tareas y un entusiasta de la tecnología, he dominado el arte de convertir el café en código y el caos en orden.',
+    'Durante el día, soy un desarrollador full stack 💻, apasionado por convertir ideas complejas en aplicaciones web funcionales y elegantes. Por la noche, me transformo en creador de mundos virtuales 🎮, dando vida a experiencias interactivas únicas en videojuegos. Con una combinación de lógica estructurada 🤓 y creatividad desbordante 🎨, disfruto construyendo soluciones que no solo funcionan, sino que también sorprenden. Siempre estoy buscando nuevos desafíos, ya sea optimizando un sistema backend 🛠️ o diseñando la próxima gran aventura virtual 🌍. La tecnología es mi lenguaje y la innovación, mi inspiración. 🚀. Con un gusto por los juegos de palabras y un profundo amor por todo lo relacionado con la tecnología, he logrado convencer a mis plantas de que tuiteen cuando necesitan agua. \n\n Un experimentado malabarista de tareas y un entusiasta de la tecnología, he dominado el arte de convertir el café en código y el caos en orden.',
   education: {
     title: 'Educación',
     list: [

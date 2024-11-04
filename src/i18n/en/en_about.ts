@@ -3,7 +3,7 @@ import type { About } from '@/types'
 const about: About = {
   title: 'About',
   summary:
-    "By day ☀️, I'm a software engineer with a knack for turning complex problems into simple solutions. By night 🌙, I moonlight as a connoisseur of fine memes and a hopeful astronaut. With a penchant for puns and a deep love for all things tech, I've successfully convinced my plants to tweet when they need watering. \n\n A seasoned juggler of tasks and an enthusiast of all things tech, I've mastered the art of turning coffee ☕ into code and chaos into order.",
+  "By day, I'm a full stack developer 💻, passionate about turning complex ideas into functional and elegant web applications. By night, I dive into the world of video game creation 🎮, bringing unique interactive experiences to life. With a blend of structured logic 🤓 and overflowing creativity 🎨, I love building solutions that not only work but also impress. I'm always seeking new challenges, whether it's optimizing a backend system 🛠️ or designing the next big virtual adventure 🌍. Technology is my language, and innovation is my inspiration. 🚀.",
   education: {
     title: 'Education',
     list: [
