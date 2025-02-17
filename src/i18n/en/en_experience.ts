@@ -9,74 +9,61 @@ const experience: Experience = {
   year: 'year | years',
   list: [
     {
-      company: 'SDWeb',
-      position: 'Full Stack Web Developer',
+      company: 'SDWEB SOLUCIONS DIXITAIS SL',
+      position: 'Analista Programador',
       url: '',
       startDate: '2024-03',
       endDate: 'Present',
       highlights: [
-        'Developed functionalities in Symfony for a university and educational center management application.',
-        'Created web services to send academic data to the institution’s intranet (Drupal) and Moodle.',
-        'Implemented modules for managing financial data and generating Excel exports.',
-        'Achieved significant performance improvements and optimized processes.'
+        'Developed scalable web applications using PHP and Laravel.',
+        'Integrated third-party services and optimized API response times.',
+        'Implemented caching strategies and security enhancements in Laravel and Symfony.',
+        'Contributed to the migration of monolithic applications to microservices architectures.'
       ],
-      description: 'Developed functionalities in Symfony for a university and educational center management application, integrating web services with platforms like Drupal and Moodle, and improving overall system performance.'
+      description: 'Developed advanced functionalities in a travel management platform, integrating third-party services, optimizing API response times, and implementing caching and security strategies in Laravel and Symfony.'
     },
     {
       company: 'TBI Consulting Group',
-      position: 'Full Stack Web Developer',
-      url: '',
-      startDate: '2023-09',
-      endDate: '2024-03',
-      highlights: [
-        'Developed a travel management application for the Camino de Santiago, enhancing route planning and tracking.',
-        'Migrated the original application from native PHP to Laravel, modernizing the architecture and improving scalability.',
-        'Implemented advanced features such as reservation management, stage tracking, and travel report generation.',
-        'Optimized user experience and system efficiency through a more intuitive interface and improved performance.'
-      ],
-      description: 'Developed a travel management application for the Camino de Santiago, modernizing the original application by migrating it from native PHP to Laravel, focusing on improving functionality, scalability, and user experience.'
-    },
-    {
-      company: 'Alia Technologies',
-      position: 'Full Stack Web Developer',
+      position: 'Web Developer',
       url: '',
       startDate: '2023-03',
-      endDate: '2023-06',
+      endDate: '2024-03',
       highlights: [
-        'Contributed to the completion of a management application for a cleaning company using Laravel and Vue.',
-        'Ensured high performance and responsiveness in the application.',
-        'Collaborated in the implementation of key functionalities for operational and administrative management.'
+        'Developed and modernized applications with PHP and Laravel.',
+        'Optimized database performance with MySQL and PostgreSQL.',
+        'Worked on API development and integration using RESTful services.',
+        'Ensured application security and performance improvements.'
       ],
-      description: 'Assisted in the completion of a management application project for a cleaning company, focusing on ensuring system quality, efficiency, and performance.'
+      description: 'Focused on the development and modernization of applications using Laravel, ensuring database performance, security, and API integrations.'
     },
     {
-      company: 'Irix Galicia',
+      company: 'Irix Galicia S.L',
       position: 'Web Developer',
       url: '',
       startDate: '2022-07',
-      endDate: '2022-11',
+      endDate: '2023-02',
       highlights: [
-        'Implemented new functionalities and optimized existing ones.',
-        'Worked on various projects using modern web technologies.',
-        'Developed a management application for a timber company.'
+        'Developed new functionalities in an inventory management application using Laravel.',
+        'Refactored PHP and Java code to enhance system performance.',
+        'Implemented unit and integration testing with PHPUnit and JUnit.',
+        'Maintained and developed applications integrating third-party APIs.'
       ],
-      description: 'Developed a management application for a timber company and maintained client websites, focusing on improving user experience and performance.'
+      description: 'Developed and maintained an inventory management application, ensuring system performance and quality through refactoring and testing.'
     },
     {
       company: 'Grupo Firmatel',
-      position: 'Web Programmer',
+      position: 'Web Developer',
       url: '',
       startDate: '2021-02',
       endDate: '2022-06',
       highlights: [
         'Developed and maintained a human resources management application with Laravel and Vue.',
-        'Implemented key functionalities such as employee management, attendance tracking, and report generation.',
-        'Collaborated with multidisciplinary teams to optimize internal processes and enhance administrative efficiency.'
+        'Implemented employee management, attendance tracking, and reporting features.',
+        'Collaborated with teams to optimize internal processes and administrative efficiency.'
       ],
-      description: 'Worked as a web developer using Laravel and Vue, developing a human resources management application. Implemented key functionalities such as employee management, attendance tracking, report generation, and performance evaluation tracking, optimizing internal processes and improving administrative efficiency.'
+      description: 'Worked on a Laravel and Vue-based HR management application, optimizing processes and ensuring system efficiency.'
     }
   ]
-
 }
 
 export default experience
